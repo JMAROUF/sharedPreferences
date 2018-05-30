@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jamal.sharedpreferences.ReadPreferences">
+
+    <TextView
+        android:id="@+id/readDefault"
+        android:hint="default preference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:width="300dp"
+        android:height="50dp"/>
+    <TextView
+        android:id="@+id/readActivityPreference"
+        android:hint="activity preference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/readDefault"
+        android:layout_marginTop="50dp"
+        android:width="300dp"
+        android:height="50dp"/>
+    <Button
+        android:id="@+id/backFromReader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/readActivityPreference"
+        android:layout_margin="20dp"
+        android:onClick="process"
+        android:text="back"/>
+
+
+</RelativeLayout>

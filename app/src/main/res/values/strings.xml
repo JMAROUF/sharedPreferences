@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+
+    <string-array name="tdi_groups">
+        <item>group 201</item>
+        <item>group 202</item>
+        <item>group 203</item>
+        <item>group 204</item>
+    </string-array>
+    <string-array name="tdi_groups_entries">
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+    </string-array>
+
+</resources>

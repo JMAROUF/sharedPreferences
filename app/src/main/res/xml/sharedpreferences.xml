@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="personnelle">
+        <EditTextPreference
+            android:summary="votre nom"
+            android:hint="nom ici"
+            android:title="EditText "
+            android:key="nom"
+            />
+        <EditTextPreference
+            android:summary="votre prenom "
+            android:hint="prenom ici"
+            android:title="EditText "
+            android:key="prenom"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="scolaire">
+        <CheckBoxPreference
+            android:title="CheckBox"
+            android:defaultValue="false"
+            android:summary="redoublant ?"
+            android:key="redoublant"
+            />
+        <ListPreference
+            android:dialogTitle="choisir un groupe"
+            android:key="group"
+            android:entries="@array/tdi_groups"
+            android:entryValues="@array/tdi_groups_entries"
+            android:title="quel group ?"
+            />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
